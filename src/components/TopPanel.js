@@ -8,6 +8,9 @@ import {
 import '../styles/TopPanel.css'
 import Home from "./Home";
 import Furniture from "./Furniture";
+import PostFurniture from "./PostFurniture";
+import DeleteFurniture from "./DeleteFurniture";
+import UpdateFurniture from "./UpdateFurniture";
 
 const routes = [
     {
@@ -19,6 +22,21 @@ const routes = [
     {
         path: "/furniture",
         main: () => <Furniture/>
+    },
+
+    {
+        path: "/add",
+        main: () => <PostFurniture/>
+    },
+
+    {
+        path: "/delete",
+        main: () => <DeleteFurniture/>
+    },
+
+    {
+        path: "/update",
+        main: () => <UpdateFurniture/>
     },
 
 ]
@@ -37,6 +55,18 @@ function TopPanel() {
 
                         <li>
                             <Link to="/furniture">FURNITURE</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/add">ADD</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/delete">DELETE</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/update">UPDATE</Link>
                         </li>
                     </ul>
                 </div>

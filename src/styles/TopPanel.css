@@ -1,9 +1,10 @@
 .TopPanelHeader {
     height: 60px;
-    background-color: goldenrod;
+    background-color: #3C1A5B;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .TopPanelLinks {
@@ -12,18 +13,23 @@
     text-decoration: none;
 }
 
+.TopPanelLinks li {
+    display: inline;
+    padding: 20px;
+}
+
 .TopPanelLinks :link {
-    color: ghostwhite;
+    color: #FFF748;
     text-decoration: none;
-    font-size: 115%;
+    font-size: 120%;
 }
 
 .TopPanelLinks :visited {
-    color: ghostwhite;
+    color: #FFF748;
 }
 
 .TopPanelLinks :hover {
-    color: black;
+    color: ghostwhite;
     transition-duration: .3s;
     -webkit-transition-duration: .3s;
     -moz-transition-duration: .3s;
@@ -34,5 +40,9 @@
 }
 
 .TopPanelPages {
-
+    background-color: #FFF748;
+    height: 100%;
+    color: #3C1A5B;
+    position: fixed;
+    width: 100%;
 }
