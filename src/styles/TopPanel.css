@@ -1,0 +1,38 @@
+.TopPanelHeader {
+    height: 60px;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopPanelLinks {
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.TopPanelLinks :link {
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 115%;
+}
+
+.TopPanelLinks :visited {
+    color: ghostwhite;
+}
+
+.TopPanelLinks :hover {
+    color: black;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+}
+
+.TopPanelLinks :active {
+    color: black;
+}
+
+.TopPanelPages {
+
+}
