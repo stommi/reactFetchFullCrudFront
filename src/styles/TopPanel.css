@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .TopPanelLinks {
@@ -45,4 +44,6 @@
     color: #3C1A5B;
     position: fixed;
     width: 100%;
+    overflow: scroll;
 }
+

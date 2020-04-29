@@ -1,0 +1,21 @@
+.CrudInput {
+    border-radius: 25px;
+    height: 30px;
+    width: 175px;
+    text-align: center;
+}
+
+.CrudButton {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    color: #FFF748;
+    background-color: #3C1A5B;
+    font-weight: bold;
+}
+
+.CrudButton:hover {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
