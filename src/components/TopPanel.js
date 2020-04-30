@@ -58,7 +58,7 @@ function TopPanel() {
                         </li>
 
                         <li>
-                            <Link to="/add">ADD</Link>
+                            <Link to="/add">POST</Link>
                         </li>
 
                         <li>
