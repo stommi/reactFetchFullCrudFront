@@ -9,6 +9,7 @@ class DeleteFurniture extends Component {
         };
 
         this.handleChange = this.handleChange.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleChange(event) {
@@ -16,6 +17,10 @@ class DeleteFurniture extends Component {
         this.setState({
             [name]: value
         })
+    }
+
+    handleSubmit() {
+        this.deleteFurniture(this.state.id)
     }
 
     deleteFurniture(id) {
@@ -33,7 +38,7 @@ class DeleteFurniture extends Component {
             <div>
                 <h2>Delete furniture here</h2>
 
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <input
                         className="CrudInput"
                         type="text"
@@ -48,7 +53,7 @@ class DeleteFurniture extends Component {
                     <button
                         type="submit"
                         className="CrudButton"
-                        onClick={this.deleteFurniture(this.state.id)}>
+                        >
                         Delete
                     </button>
                 </form>
