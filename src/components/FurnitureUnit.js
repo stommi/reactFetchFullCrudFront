@@ -7,14 +7,6 @@ function FurnitureUnit(props) {
             <h3>Nimi: {props.furniture.nimi}</h3>
             <h3>Väri: {props.furniture.vari}</h3>
             <h3>Lkm: {props.furniture.lkm} kpl</h3>
-            {/*<button*/}
-            {/*    className="CrudButton"*/}
-            {/*    type="number"*/}
-            {/*    name="id"*/}
-            {/*    value={props.furniture.id}*/}
-            {/*    >*/}
-            {/*    Delete*/}
-            {/*</button>*/}
             <hr/>
         </div>
     )
