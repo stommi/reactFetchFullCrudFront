@@ -41,7 +41,7 @@ class DeleteFurniture extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <input
                         className="CrudInput"
-                        type="text"
+                        type="number"
                         name="id"
                         value={this.state.id}
                         onChange={this.handleChange}

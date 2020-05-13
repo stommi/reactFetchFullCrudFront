@@ -23,7 +23,7 @@ class Furniture extends Component {
         const allFurniture = this.state.furniture.map((item) => <FurnitureUnit key={item.id} furniture={item}/>)
 
         return (
-            <div>
+            <div className="AllFurniture">
                 <h2>All furniture</h2>
                 <hr/>
                 {allFurniture}
