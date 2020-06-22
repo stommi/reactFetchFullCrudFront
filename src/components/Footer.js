@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 function Footer() {
     return(
         <div className="Footer">
-            <h3>Copyright</h3>
+            <h3>Copyright Tommi</h3>
         </div>
     )
 
